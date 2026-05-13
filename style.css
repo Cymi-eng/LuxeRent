@@ -1,0 +1,91 @@
+/*
+
+}
+*/
+/* Types of CSS selector */
+/* Universal selector */
+*{
+    margin:0px;
+    padding:0 ;
+    font-family: Arial;
+}
+/* element selector */
+button{
+    padding: 4px;
+    background-color: blue;
+    color: beige;
+    margin: 4px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+p {font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    font-style: italic;
+}
+
+body {
+    background-color: black;
+    color: rgb(248, 142, 2);
+
+}
+
+h1 {font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: chocolate;
+    font-style: initial;
+}
+
+h2{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: aqua;
+    font-style: inherit;
+}
+
+h3 {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: green;
+    font-style: unset;
+}
+
+img {width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+/* class selector */
+.container {
+    border: 1px solid red;
+    width: 500px;
+    height: 200px;
+    background-color: azure;
+
+}
+.logo-text {
+    font: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: green;
+    font-style:inherit;
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+}
+
+/* id selector */
+#portfolio {
+    border: 5px dotted green;
+}
+/* Attribute selector */
+a[href] {
+    color: #fff;
+}
+
+/*descendant selector */
+
+div h4 {
+    color: red;
+}
+
+/*Child selector */
+
+div > p {
+    color: rgb(0, 255, 68);
+}
